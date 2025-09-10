@@ -1,13 +1,18 @@
-import React from "react";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
-const App = () => {
+function App() {
   return (
-    <div className="text-medium bg-sky-700 px-4 py-2 text-[60px] text-blue-700 hover:bg-sky-800 sm:px-8 sm:py-3">
-      <button class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">
-        app
-      </button>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
-};
+}
 
 export default App;
