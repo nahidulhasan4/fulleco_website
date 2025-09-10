@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
   return (
-    <div className="px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800 text-blue-700 text-[60px] text-medium  ">App</div>
-  )
-}
+    <div className="text-medium bg-sky-700 px-4 py-2 text-[60px] text-blue-700 hover:bg-sky-800 sm:px-8 sm:py-3">
+      <button class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">
+        app
+      </button>
+    </div>
+  );
+};
 
-
-export default App
-
-
+export default App;
