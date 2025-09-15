@@ -9,7 +9,19 @@ export default {
       colors: {
        blackColor: '#000000',
        whiteColor: '#FAFAFA'
-        }
+        },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      container: {
+        center: true,
+        screens: {
+          
+          xl: "1170px",
+          
+        },
+      },
+      
     },
   },
   plugins: [],
