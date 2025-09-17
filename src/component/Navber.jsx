@@ -50,7 +50,7 @@ const profileMenuItems = [
   },
 ];
  
-function NavberList() {
+function ProfileMenu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
  
   const closeMenu = () => setIsMenuOpen(false);
@@ -227,7 +227,7 @@ function NavList() {
   );
 }
  
-export function EcomarceNavber() {
+export function EcommarceNavber() {
   const [isNavOpen, setIsNavOpen] = React.useState(false);
  
   const toggleIsNavOpen = () => setIsNavOpen((cur) => !cur);
@@ -265,7 +265,7 @@ export function EcomarceNavber() {
         <Button size="sm" variant="text">
           <span>Log In</span>
         </Button>
-        <NavberList />
+        <ProfileMenu />
       </div>
       <MobileNav open={isNavOpen} className="overflow-scroll">
         <NavList />
