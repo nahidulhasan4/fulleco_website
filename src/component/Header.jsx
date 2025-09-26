@@ -1,8 +1,12 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 const Header = () => {
   return (
     <div className="bg-blackColor text-whiteColor">
+         <Marquee>
+        I can be a React component, multiple React components, or just some text.
+      </Marquee>
       <div className="container mx-auto">
         <div className="font-poppins relative flex justify-center py-[12px]">
           <h3 className="ladding-[21px] text-center text-sm font-normal">

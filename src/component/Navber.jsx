@@ -1,4 +1,7 @@
 import React from "react";
+
+import Marquee from "react-fast-marquee";
+
 import {
   Navbar,
   MobileNav,
@@ -241,6 +244,7 @@ export function EcommarcNavber() {
  
   return (
     <Navbar className="mx-auto max-w-screen-xl p-2 lg:rounded-full lg:pl-6">
+   
       <div className="relative mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
