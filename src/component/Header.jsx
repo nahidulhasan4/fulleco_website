@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 const Header = () => {
   return (
     <div className="bg-blackColor text-whiteColor">
-         <Marquee>
+         <Marquee pauseOnHover={true}>
         I can be a React component, multiple React components, or just some text.
       </Marquee>
       <div className="container mx-auto">
